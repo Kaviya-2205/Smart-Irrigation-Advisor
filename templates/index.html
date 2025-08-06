@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Irrigation Advisor</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            background: #f0fff0;
+            color: #2d2d2d;
+            text-align: center;
+            padding: 40px;
+        }
+
+        h1 {
+            color: #2f7b2f;
+        }
+
+        form {
+            background: #ffffff;
+            border-radius: 15px;
+            padding: 30px;
+            max-width: 400px;
+            margin: auto;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        input[type="text"],
+        select {
+            padding: 10px;
+            width: 90%;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        .result {
+            margin-top: 30px;
+            font-size: 18px;
+            background-color: #e7ffe7;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        footer {
+            margin-top: 50px;
+            font-size: 14px;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🌱 AGRO-DROP</h1>
+
+    <form method="POST">
+        <input type="text" name="location" placeholder="🌍 Enter your city (e.g. Chennai)" required><br>
+
+        <select name="language" required>
+            <option value="" disabled selected>🌐 Select Language</option>
+            <option value="English">English</option>
+            <option value="Tamil">தமிழ் (Tamil)</option>
+        </select><br>
+
+        <button type="submit">💧 Get Advice</button>
+    </form>
+
+    {% if result %}
+        <div class="result">
+            <strong>{{ result }}</strong>
+        </div>
+    {% endif %}
+
+    <footer>
+        Made with ❤️ by Kaviya | Smart Farming Project 2025
+    </footer>
+</body>
+</html>
