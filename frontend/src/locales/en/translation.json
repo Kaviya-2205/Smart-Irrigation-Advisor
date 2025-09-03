@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "dashboard": "Dashboard",
+    "historical": "Historical Data",
+    "notifications": "Notifications",
+    "settings": "Settings",
+    "logout": "Logout",
+    "language": "Language"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "currentStats": "Current Farm Stats",
+    "temperature": "Temperature",
+    "humidity": "Humidity",
+    "moisture": "Soil Moisture",
+    "pump": "Pump Status",
+    "on": "ON",
+    "off": "OFF",
+    "recommendation": "Recommendation"
+  },
+  "historical": {
+    "title": "Historical Data",
+    "range": "Time Range",
+    "avgMoisture": "Avg. Moisture",
+    "avgTemp": "Avg. Temperature",
+    "totalRain": "Total Rainfall",
+    "days": "days",
+    "tableTitle": "Detailed Data",
+    "chartTitle": "Moisture Trend"
+  }
+}

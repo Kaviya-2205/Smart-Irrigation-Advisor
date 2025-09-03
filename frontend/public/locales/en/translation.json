@@ -1,0 +1,12 @@
+{
+  "welcome": "Welcome to Farm Monitoring",
+  "dashboard": "Dashboard",
+  "sensors": "Sensors",
+  "temperature": "Temperature",
+  "humidity": "Humidity",
+  "soilMoisture": "Soil Moisture",
+  "login": "Login",
+  "username": "Username",
+  "password": "Password",
+  "submit": "Submit"
+}

@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "dashboard": "డాష్‌బోర్డ్",
+    "historical": "చరిత్రాత్మక డేటా",
+    "notifications": "నోటిఫికేషన్స్",
+    "settings": "సెట్టింగ్స్",
+    "logout": "లాగ్ అవుట్",
+    "language": "భాష"
+  },
+  "dashboard": {
+    "title": "డాష్‌బోర్డ్",
+    "currentStats": "ప్రస్తుతం ఫారం గణాంకాలు",
+    "temperature": "ఉష్ణోగ్రత",
+    "humidity": "ఆర్ద్రత",
+    "moisture": "మట్టి తేమ",
+    "pump": "పంప్ స్థితి",
+    "on": "ఆన్",
+    "off": "ఆఫ్",
+    "recommendation": "సిఫార్సు"
+  },
+  "historical": {
+    "title": "చరిత్రాత్మక డేటా",
+    "range": "కాల పరిధి",
+    "avgMoisture": "సగటు తేమ",
+    "avgTemp": "సగటు ఉష్ణోగ్రత",
+    "totalRain": "మొత్తం వర్షపాతం",
+    "days": "రోజులు",
+    "tableTitle": "వివరాల పట్టిక",
+    "chartTitle": "తేమ ధోరణి"
+  }
+}

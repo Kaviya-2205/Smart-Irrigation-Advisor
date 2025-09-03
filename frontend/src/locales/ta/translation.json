@@ -1,0 +1,31 @@
+{
+  "nav": {
+    "dashboard": "டாஷ்போர்டு",
+    "historical": "வரலாற்று தரவு",
+    "notifications": "அறிவிப்புகள்",
+    "settings": "அமைப்புகள்",
+    "logout": "வெளியேறு",
+    "language": "மொழி"
+  },
+  "dashboard": {
+    "title": "டாஷ்போர்டு",
+    "currentStats": "தற்போதைய பண்ணை நிலை",
+    "temperature": "வெப்பநிலை",
+    "humidity": "ஈரப்பதம்",
+    "moisture": "மண் ஈரப்பதம்",
+    "pump": "பம்ப் நிலை",
+    "on": "இயங்குகிறது",
+    "off": "நிறுத்தப்பட்டது",
+    "recommendation": "பரிந்துரை"
+  },
+  "historical": {
+    "title": "வரலாற்று தரவு",
+    "range": "கால எல்லை",
+    "avgMoisture": "சராசரி ஈரப்பதம்",
+    "avgTemp": "சராசரி வெப்பநிலை",
+    "totalRain": "மொத்த மழை",
+    "days": "நாட்கள்",
+    "tableTitle": "விரிவான தகவல்",
+    "chartTitle": "ஈரப்பதம் போக்கு"
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "nav": {
+    "dashboard": "डैशबोर्ड",
+    "historical": "ऐतिहासिक डेटा",
+    "notifications": "सूचनाएँ",
+    "settings": "सेटिंग्स",
+    "logout": "लॉगआउट",
+    "language": "भाषा"
+  },
+  "dashboard": {
+    "title": "डैशबोर्ड",
+    "currentStats": "वर्तमान फॉर्म आँकड़े",
+    "temperature": "तापमान",
+    "humidity": "नमी",
+    "moisture": "मृदा नमी",
+    "pump": "पंप की स्थिति",
+    "on": "चालू",
+    "off": "बंद",
+    "recommendation": "सुझाव"
+  },
+  "historical": {
+    "title": "ऐतिहासिक डेटा",
+    "range": "समय सीमा",
+    "avgMoisture": "औसत नमी",
+    "avgTemp": "औसत तापमान",
+    "totalRain": "कुल वर्षा",
+    "days": "दिन",
+    "tableTitle": "विस्तृत डेटा",
+    "chartTitle": "नमी प्रवृत्ति"
+  }
+}
+ 
